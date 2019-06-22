@@ -85,17 +85,33 @@ styles for this page
 --------------------
 */
 
+/* define our fonts */
+@font-face {
+	font-family: 'Open Sans Condensed';
+	font-weight: bold;
+	src: url(/errorpages/fonts/opensanscondensed-bold.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: normal;
+	src: url(/errorpages/fonts/opensans-regular.ttf) format("truetype");
+}
+
+
 body {
+	flex-direction: column;
+	font-family: 'Open Sans', sans-serif;
     align-items: center;
     background-color: #323232;
     color: #9D9B9B;
     display: flex;
-    flex-direction: column;
     padding: 2rem;
 }
 
 h1 {
-    font-size: 7rem;
+	font-family: 'Open Sans Condensed';
+	font-size: 7rem;
 }
 
 img {
