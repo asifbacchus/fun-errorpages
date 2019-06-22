@@ -100,7 +100,8 @@ h1 {
 
 img {
     margin: 2rem 0;
-    max-height: 50vh;
+	max-height: 50vh;
+	max-width: 85vw;
 }
 
 p {
