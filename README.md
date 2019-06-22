@@ -5,13 +5,18 @@ Here are some fun error pages to use instead of the usual boring ones.  I didn't
 Feel free to use these pages on your site and/or alter them however you see fit.  Enjoy.
 
 ## Contents <!-- omit in toc -->
+- [Some screenshots](#Some-screenshots)
 - [Getting the files](#Getting-the-files)
 - [Using the error pages (NGINX)](#Using-the-error-pages-NGINX)
   - [Multiple sites](#Multiple-sites)
   - [The pesky 'internal' directive](#The-pesky-internal-directive)
 - [Final words](#Final-words)
 
+## Some screenshots
 
+![404 screenshot](screenshots/404.jpg "404 error page")
+
+![50x screenshot](screenshots/50x.jpg "50x error page")
 
 ## Getting the files
 
