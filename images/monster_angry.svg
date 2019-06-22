@@ -309,9 +309,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.53033009"
-     inkscape:cx="288.12452"
-     inkscape:cy="515.64949"
+     inkscape:zoom="0.5"
+     inkscape:cx="280.00786"
+     inkscape:cy="616.91297"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -712,14 +712,14 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:150;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="504.2142"
-       y="147.99796"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:150;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="346.2142"
+       y="149.99796"
        id="text2658"
        inkscape:label="attribution"><tspan
          sodipodi:role="line"
          id="tspan2656"
-         x="504.2142"
-         y="147.99796">image by vectorpouch (www.freepik.com)</tspan></text>
+         x="346.2142"
+         y="149.99796">image by vectorpouch (www.freepik.com)</tspan></text>
   </g>
 </svg>
