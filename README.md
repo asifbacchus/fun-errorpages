@@ -50,10 +50,10 @@ I almost exclusively use NGINX, so I'll be assuming you do too in the following 
 ```nginx
 # error pages
 error_page 400  /errorpages/400.html;
-error_page 401  /errorpages/400.html;
-error_page 403  /errorpages/400.html;
-error_page 404  /errorpages/400.html;
-error_page 500 502 503 504  /errorpages/400.html;
+error_page 401  /errorpages/401.html;
+error_page 403  /errorpages/403.html;
+error_page 404  /errorpages/404.html;
+error_page 500 502 503 504  /errorpages/50x.html;
 
 location ~ ^/errorpages {
     root    /usr/share/nginx/html;
