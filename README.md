@@ -5,12 +5,12 @@ Here are some fun error pages to use instead of the usual boring ones.  I didn't
 Feel free to use these pages on your site and/or alter them however you see fit.  Enjoy.
 
 ## Contents <!-- omit in toc -->
-- [Some screenshots](#Some-screenshots)
-- [Getting the files](#Getting-the-files)
-- [Using the error pages (NGINX)](#Using-the-error-pages-NGINX)
-  - [Multiple sites](#Multiple-sites)
-  - [The pesky 'internal' directive](#The-pesky-internal-directive)
-- [Final words](#Final-words)
+- [Some screenshots](#some-screenshots)
+- [Getting the files](#getting-the-files)
+- [Using the error pages (NGINX)](#using-the-error-pages-nginx)
+  - [Multiple sites](#multiple-sites)
+  - [The pesky 'internal' directive](#the-pesky-internal-directive)
+- [Final words](#final-words)
 
 ## Some screenshots
 
@@ -55,7 +55,7 @@ error_page 403  /errorpages/403.html;
 error_page 404  /errorpages/404.html;
 error_page 500 502 503 504  /errorpages/50x.html;
 
-location ~ ^/errorpages {
+location ^~ /errorpages {
     root    /usr/share/nginx/html;
 }
 ```
@@ -78,7 +78,7 @@ Now NGINX will automatically insert the contents of that *'errorpages.conf* file
 Following the advice you see almost everywhere, you would expect our error blocks to be set up like this:
 
 ```nginx
-location ~ ^/errorpages {
+location ^~ /errorpages {
     root    /usr/share/nginx/html;
     internal;  # notice this directive!
 }
