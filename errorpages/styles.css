@@ -98,19 +98,38 @@ styles for this page
 	src: url(/errorpages/fonts/opensans-regular.ttf) format("truetype");
 }
 
+/* define variables */
+:root {
+--color-bg: #323232;
+--color-text: #9D9B9B;
+--color-instructions: yellow;
+--font-header: 'Open Sans Condensed';
+--font-base: 'Open Sans';
+}
 
 body {
 	flex-direction: column;
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-base), sans-serif;
     align-items: center;
-    background-color: #323232;
-    color: #9D9B9B;
+    background-color: var(--color-bg);
+    color: var(--color-text);
     display: flex;
     padding: 2rem;
 }
 
+a {
+	color: var(--color-text);
+	font-family: inherit;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 h1 {
-	font-family: 'Open Sans Condensed';
+	font-family: var(--font-header);
 	font-size: 7rem;
 }
 
@@ -133,7 +152,7 @@ footer {
 
 
 .instructions {
-    color: yellow;
+    color: var(--color-instructions);
     font-weight: bold;
     text-shadow: 2px 2px 5px #000000;
 }
