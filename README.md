@@ -5,6 +5,7 @@ Here are some fun error pages to use instead of the usual boring ones.  I didn't
 Feel free to use these pages on your site and/or alter them however you see fit.  Enjoy.
 
 ## Contents <!-- omit in toc -->
+
 - [Some screenshots](#some-screenshots)
 - [Getting the files](#getting-the-files)
 - [Using the error pages (NGINX)](#using-the-error-pages-nginx)
@@ -26,7 +27,10 @@ I'll assume you're using a linux server and provide examples of each command on 
 
     ```bash
     cd ~
+    # clone from my server (most up-to-date)
     git clone https://git.asifbacchus.app/asif/fun-errorpages.git
+    # OR clone from github (usually the latest version)
+    git clone https://github.com/asifbacchus/fun-errorpages.git
     ```
 
 2. Switch to your webroot (I'm assuming NGINX).
