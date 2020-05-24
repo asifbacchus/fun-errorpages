@@ -66,7 +66,7 @@ location ^~ /errorpages {
 
 ### Multiple sites
 
-On many of my webservers, I run mulitple sites/services but would like to use the same fun error pages on each of them.  I could append the above to each server configuration file, or I could just use one file and *include* it in each configuration.  Let's run though that quickly:
+On many of my webservers, I run multiple sites/services but would like to use the same fun error pages on each of them.  I could append the above to each server configuration file, or I could just use one file and *include* it in each configuration.  Let's run though that quickly:
 
 1. Make a new file and call it something like *"errorpages.conf"*.  Save the file somewhere that makes sense, like your *NGINX configuration directory* (/etc/nginx/errorpages.conf).
 2. In your various server files, at the end of your *server* blocks, simply add the following:
